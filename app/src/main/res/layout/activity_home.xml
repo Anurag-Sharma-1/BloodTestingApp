@@ -4,42 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_background"
+    android:background="@drawable/new_home_background"
     tools:context=".HomeActivity">
 
     <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277"
+        app:srcCompat="@drawable/camera_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="128dp"
+        android:layout_height="123dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276"
+        app:srcCompat="@drawable/gallery_icon" />
+
+    <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="112dp"
-        android:layout_height="107dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/camera_icon"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="186dp" />
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        app:srcCompat="@drawable/tips_icon" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="116dp"
-        android:layout_height="107dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/gallery_icon"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="186dp" />
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        app:srcCompat="@drawable/about_icon" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="114dp"
-        android:layout_height="108dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/tips_icon"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="459dp" />
+        android:id="@+id/imageButton7"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/homeicon" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="114dp"
-        android:layout_height="109dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/about_icon"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="458dp" />
+        android:id="@+id/imageButton8"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/moreicon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
