@@ -14,7 +14,7 @@ public class HomeActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-
+        
 
     }
 }
