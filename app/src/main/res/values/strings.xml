@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Blood Testing App</string>
+    <string name="textview">
+Regular blood testing is one of the most important ways to keep track of your overall physical well-being.
+
+Getting tested at routine intervals can allow you to see the way your body changes over time and empower you to make informed decisions about your health.
+
+How often should I get routine blood work?
+Your doctor will typically recommend that you get routine blood work at least once a year, around the same time as your yearly physical.
+
+But this is the bare minimum. There are several major reasons you may want to get blood tests more often than that:
+
+You’re experiencing unusual, persistent symptoms. These could include anything from fatigue to abnormal weight gain to new pain.
+You want to optimize your health. Knowing levels of various blood components, such as HDL and LDL cholesterol, can allow you to tweak your diet or fitness plan to minimize unhealthy habits (that you may not even realize are unhealthy). This can also maximize the nutrients you put in your body and more.
+You want to reduce your risk of disease or complications. Regular blood tests can catch the warning signs of almost any disease early. Many heart, lung, and kidney conditions can be diagnosed using blood tests.
+Talk to your doctor first if you want to get certain tests more often than once a year.
+        Who orders my blood tests?
+Your doctor typically orders blood tests for you during a physical, checkup, or an appointment intended for a specific condition.
+
+Blood testing is usually partially or fully covered by insurance. Ordering tests through your medical provider ensures that you’re not paying too much. Your doctor can also advise you on how to choose testing facilities that are reliable, well-managed, or convenient for you.
+
+It’s possible to order your own blood tests without a doctor or even health insurance, but it’s not recommended. You may end up paying the full cost by not going through an insurance plan, which can be expensive.
+
+And some blood testing facilities may not give you accurate results. One infamous case of this is Theranos, a Palo Alto, California, biotechnology firm shut down in 2018 when an investigation uncovered lies and fraud around the accuracy of its private blood testing technology.
+        Thyroid panel
+A thyroid panel, or thyroid function test, checks how well your thyroid is producing and reacting to certain hormones, such as:
+
+Triiodothyronine (T3). Along with T4, this regulates your heart rate and body temperature.
+T3 resin uptake (RU). This measures how well a hormone called thyroxin-binding globulin is binding.
+Thyroxine (T4). Along with T3, this regulates your metabolism and how you grow.
+Thyroid-stimulating hormone (TSH). This helps regulate the levels of hormones your thyroid releases.
+Your thyroid, a tiny gland in your neck, helps regulate bodily functions like your mood, energy level, and overall metabolism.
+
+Here are normal results:
+
+T3:100–200 nanograms per deciliter of blood (ng/dL)
+T3RU:depends on T3 levels (will be low if T3 levels are high, and vice versa)
+T4: 5.0–12.0 micrograms per deciliter (μg/dL)
+TSH:0.4–4.0 milli-international units per liter of blood (mIU/L)
+Abnormal levels of these hormones can indicate numerous conditions, such as low protein levels, thyroid growth disorders, and abnormal levels of testosterone or estrogen.
+    </string>
+
 </resources>

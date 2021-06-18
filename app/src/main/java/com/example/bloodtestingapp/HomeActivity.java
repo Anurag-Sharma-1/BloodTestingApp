@@ -24,8 +24,21 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this,InformationActivity.class);
                 startActivity(intent);
+
             }
         });
+
+        imageButton = findViewById(R.id.imageButton4);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,AboutActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
 
     }
 }
