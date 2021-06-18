@@ -38,7 +38,25 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        imageButton = findViewById(R.id.imageButton);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,CameraActivity.class);
+                startActivity(intent);
 
+            }
+        });
+
+        imageButton = findViewById(R.id.imageButton8);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,MoreActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 }
